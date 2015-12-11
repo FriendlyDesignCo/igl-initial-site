@@ -222,7 +222,6 @@ li,
   background-size:50%,cover;
   background-position:bottom,center;
   background-repeat:repeat-x, no-repeat;
-  height:500px;
 }
 
 .f2{
@@ -230,7 +229,6 @@ li,
   background-size:50%,cover;
   background-position:bottom,center;
   background-repeat:repeat-x, no-repeat;
-  height:500px;
 }
 
 .f3{
@@ -290,6 +288,7 @@ img{
 
 .mid{
   background-color:#231f20;
+  padding-bottom: 200px !important;
 }
 
 
