@@ -12,7 +12,9 @@ html {
 /* reset some common browser styles */
 html, body {
   margin: 0;
-  padding: 0; }
+  padding: 0; 
+  background-color: #231f20;
+}
 
 img {
   max-width: 100%;
@@ -256,6 +258,11 @@ img{
     background-position: center bottom;
     padding: 30px 0;
 }
+@media screen and (max-width: 39.9999em) {
+    .event-left{
+      height: inherit !important;
+    }
+}
 .event-left .row.a{
     letter-spacing: 5px;
 }
@@ -331,6 +338,12 @@ img{
     text-align: center; 
     text-transform: uppercase;
   }
+@media screen and (max-width: 39.9999em) {
+  .menu li {
+    display: inline-block;
+  }
+}
+
 
 ul{
     display: inline-block; }
