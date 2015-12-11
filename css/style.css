@@ -108,6 +108,10 @@ h3{
   font-weight:bold;
 }
 
+p{
+  font-size: 1.25rem;
+}
+
 
 .a{
   font-size:2em;
@@ -187,24 +191,30 @@ li,
 /*Images*/
 
 .h1{
-  background-image: url("../images/h1.svg");
-  background-size:cover;
-  background-position:center;
-  padding: 100px 50px;
+    background: 
+    linear-gradient(
+      rgba(35,31,32,0.5), 
+      rgba(35,31,32,0.5)
+    ),
+    url(../images/h1.svg);
 }
 
 .h2{
-  background-image: url("../images/h2.svg");
-  background-size:cover;
-  background-position:center;
-  height:500px;
+    background: 
+    linear-gradient(
+      rgba(35,31,32,0.5), 
+      rgba(35,31,32,0.5)
+    ),
+    url(../images/h2.svg);
 }
 
 .h3{
-  background-image: url("../images/h3.svg");
-  background-size:cover;
-  background-position:center;
-  height:500px;
+    background: 
+    linear-gradient(
+      rgba(35,31,32,0.5), 
+      rgba(35,31,32,0.5)
+    ),
+    url(../images/h3.svg);
 }
 
 .f1{
@@ -237,10 +247,7 @@ img{
 }
 
 .event-left{
-  /*background: linear-gradient(rgba(153,0,153,0.85), rgba (153,0,153,0.85), url("../images/nolo.jpg") no-repeat center bottom;
-  background-size: cover;*/
     background: 
-    /* top, transparent red, faked with gradient */ 
     linear-gradient(
       rgba(153, 0, 153, 0.85), 
       rgba(153, 0, 153, 0.85)
@@ -249,11 +256,16 @@ img{
     url(../images/nolo.jpg);
     background-size: cover;
     background-position: center bottom;
-    padding: 30px;
+    padding: 30px 0;
 }
 .event-left .row.a{
     letter-spacing: 5px;
 }
+.event-left .nola-logo{
+  padding-bottom: 30px;
+}
+
+
 .event .b{
     padding: 30px;
 }
@@ -270,7 +282,12 @@ img{
   border-color:#5ec936;
 }
 
-.top,
+.top{
+  background-size:cover;
+  background-position:center;
+  padding: 100px 50px;
+}
+
 .mid{
   background-color:#231f20;
 }
@@ -312,7 +329,9 @@ img{
 
 
 .top-bar {
-    text-align: center; }
+    text-align: center; 
+    text-transform: uppercase;
+  }
 
 ul{
     display: inline-block; }
