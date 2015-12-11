@@ -19,6 +19,7 @@
 
 
 
+
     <div class="top-bar nav1">
       <nav class="top-bar-center contain-to-grid">
         <ul class="menu right" data-menu>
@@ -32,6 +33,32 @@
         </ul>
       </nav>
     </div>
+
+
+
+
+
+  <div class="mid">
+    <div class="row">
+      <div class="large-8 large-offset-2 columns c">
+      	<h3>ABOUT</h3>
+        <p>
+          A bit about IGL. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus
+          hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus
+          id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales
+          leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse
+          potenti.
+        </p>
+        <p>
+        	Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti.
+        </p>
+        <p>
+        	Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti.
+        </p>
+      </div>
+    </div>
+  </div>
+
 
 
 
