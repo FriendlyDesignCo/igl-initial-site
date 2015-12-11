@@ -200,6 +200,10 @@ img{
   margin:0 auto;
 }
 
+.event-left{
+  background-image: url("../images/nolo.jpg");
+}
+
 
 /*Colors*/
 
@@ -245,9 +249,7 @@ img{
   padding-top:100px;
 }
 
-.event{
-  padding:100px 0;
-}
+
 
 .low{
   padding-top:100px;
