@@ -190,7 +190,7 @@ li,
   background-image: url("../images/h1.svg");
   background-size:cover;
   background-position:center;
-  height:500px;
+  padding: 100px 50px;
 }
 
 .h2{
@@ -228,7 +228,6 @@ li,
   background-size:50%,cover;
   background-position:bottom,center;
   background-repeat:repeat-x, no-repeat;
-  height:500px;
 }
 
 
@@ -238,7 +237,25 @@ img{
 }
 
 .event-left{
-  background-image: url("../images/nolo.jpg");
+  /*background: linear-gradient(rgba(153,0,153,0.85), rgba (153,0,153,0.85), url("../images/nolo.jpg") no-repeat center bottom;
+  background-size: cover;*/
+    background: 
+    /* top, transparent red, faked with gradient */ 
+    linear-gradient(
+      rgba(153, 0, 153, 0.85), 
+      rgba(153, 0, 153, 0.85)
+    ),
+    /* bottom, image */
+    url(../images/nolo.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    padding: 30px;
+}
+.event-left .row.a{
+    letter-spacing: 5px;
+}
+.event .b{
+    padding: 30px;
 }
 
 
@@ -284,6 +301,7 @@ img{
 .top,
 .mid{
   padding-top:100px;
+  padding-bottom:100px;
 }
 
 
@@ -307,3 +325,8 @@ ul{
 .event-left{
   padding:none;
 }
+
+.event .row{
+  max-width: none;
+}
+
