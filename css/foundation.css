@@ -1444,6 +1444,9 @@ kbd {
     font-size: 0.75rem; }
   .button.large {
     font-size: 1.25rem; }
+  .button.round{
+    border-radius: 1000px;
+  }
   .button.expanded {
     display: block;
     width: 100%;
@@ -3160,7 +3163,6 @@ table.hover tr:nth-of-type(even):hover {
     clear: both; }
   .top-bar,
   .top-bar ul {
-    background-color: #e6e6e6; }
   .top-bar a {
     color: #2199e8; }
   .top-bar input {

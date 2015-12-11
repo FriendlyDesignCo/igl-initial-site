@@ -37,7 +37,7 @@ Light Green:#5ec936;;
 Dark Green:#006600;
 Grey:#231f20;
 Purple:#4f1a51;
-Yellow:;
+Yellow:#ffff00;
 */
 
 
@@ -76,7 +76,8 @@ h1,
 h2,
 li,
 p,
-button{
+button,
+a{
   font-family:Brandon Grotesque;
 }
 
@@ -91,11 +92,13 @@ h2,
 h1{
   font-size:4em;
   color:#ffffff;
+  font-weight:bold;
 }
 
 h2{
   font-size:2.3em;
   color:#ffffff;
+  font-weight:bold;
 }
 
 
@@ -116,14 +119,63 @@ h2{
 
 li,
 .d{
-  font-size:.85em;
+  font-size:.9em;
   color:#ffffff;
 }
 
 .green{
   color:#5ec936;;
+  font-weight:bold;
 }
 
+.button.round{
+  color:#4f1a51;
+  font-weight:bold;
+}
+
+.nava:link {
+    color: #ffffff;
+    font-weight:bold;
+}
+
+.nava:visited {
+    color: #5ec936;
+    font-weight:bold;
+}
+
+.nava:hover {
+    color: #5ec936;
+    font-weight:bold;
+}
+
+.nava:active {
+    color: #5ec936;
+    font-weight:bold;
+}
+
+.navb:link {
+    color: #006600;
+    font-weight:bold;
+}
+
+.navb:visited {
+    color: #ffffff;
+    font-weight:bold;
+}
+
+.navb:hover {
+    color: #ffffff;
+    font-weight:bold;
+}
+
+.navb:active {
+    color: #ffffff;
+    font-weight:bold;
+}
+
+.low{
+  font-weight:bold;
+}
 
 /*Images*/
 
@@ -135,9 +187,10 @@ li,
 }
 
 .mid{
-  background-image:url("../images/grid.svg");
-  background-size:cover;
-  background-position:center;
+  background-image: url("../images/foot1.svg"), url("../images/grid.svg");
+  background-size:50%,cover;
+  background-position:bottom,center;
+  background-repeat:repeat-x, no-repeat;
   height:500px;
 }
 
@@ -178,6 +231,10 @@ img{
   background-color:#4f1a51;
 }
 
+.button.round{
+  background-color:#ffff00;
+}
+
 
 
 
@@ -190,4 +247,20 @@ img{
 
 .event{
   padding:100px 0;
+}
+
+.low{
+  padding-top:100px;
+}
+
+
+.top-bar {
+    text-align: center; }
+
+ul{
+    display: inline-block; }
+
+
+.d{
+  padding-top:10px;
 }
