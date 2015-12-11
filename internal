@@ -1,0 +1,80 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IGL</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+ </head>
+  <body>
+
+    <div class="top">
+    	<div class="row">
+    	</div>
+  	</div>
+
+
+
+
+    <div class="top-bar nav1">
+      <nav class="top-bar-center contain-to-grid">
+        <ul class="menu right" data-menu>
+          <li><a class="nava" href="#">Events</a></li>
+          <li><a class="nava" href="#">About</a></li>
+          <li><a class="nava" href="#">Rules</a></li>
+          <li><a class="nava" href="#">Records</a></li>
+          <li><a class="nava" href="#">Streaming and Media</a></li>
+          <li><a class="nava" href="#">Student League</a></li>
+          <li><a class="nava" href="#">Partners</a></li>
+        </ul>
+      </nav>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="nav2">
+    <div class="top-bar">
+      <div class="top-bar-center">
+        <ul class="menu" data-menu>
+          <li>We're on the Internet</li>
+          <li><a class="navb" href="#">Twitter</a></li>
+          <li><a class="navb" href="#">Facebook</a></li>
+          <li><a class="navb" href="#">Instagram</a></li>
+          <li><a class="navb" href="#">Twitch</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="d">
+    <div class="row">
+      <div class="large-12 columns d">
+        <p>2015 Independant Gaming League</p>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  	<script src="js/vendor/jquery.min.js"></script>
+    <script src="js/vendor/what-input.min.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
