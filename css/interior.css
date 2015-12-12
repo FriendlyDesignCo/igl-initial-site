@@ -1,0 +1,38 @@
+/* Interior Page Styles */
+.fix-bar{
+  position: fixed;
+  top: 0;
+  background-color:#990099;
+  width: 100%; 
+  padding-top: 10px;
+    padding-left: 10px;
+}
+
+.fix-bar h2{
+  letter-spacing: 5px;
+  font-size: 24px;
+  text-transform: uppercase;
+  text-align: left;
+  display:inline;
+
+}
+
+.fix-bar .button{ float: right;}
+
+@media screen and (max-width: 59.9999em) {
+.fix-bar{
+  text-align: center;
+}
+.fix-bar h2{
+  font-size: 14px;
+  display: block;
+  text-align: center;
+}
+.fix-bar .button{
+  float: none;
+  }
+.top{
+  padding:50px 0;
+  margin-top: 100px;    
+  }
+}
