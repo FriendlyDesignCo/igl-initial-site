@@ -249,8 +249,7 @@ li,
   background-repeat:repeat-x, no-repeat;
 }
 
-
-img{
+.logo{
   height:200px;
   margin:0 auto;
 }
