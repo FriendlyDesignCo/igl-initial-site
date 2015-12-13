@@ -140,7 +140,12 @@ li,
 }
 
 .green{
-  color:#5ec936;;
+  color:#5ec936;
+  font-weight:bold;
+}
+
+.purple{
+  color:#990099;
   font-weight:bold;
 }
 
@@ -161,7 +166,7 @@ li,
 }
 
 .nava:visited {
-    color: #5ec936;
+    color: #ffffff;
     font-weight:bold;
 }
 
