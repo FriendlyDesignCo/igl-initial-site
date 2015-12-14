@@ -117,6 +117,12 @@ p{
   font-size: 1.25rem;
 }
 
+.sub{
+  font-size: 1.5rem;
+  color:#ffffff;
+  text-align:center;
+}
+
 
 .a{
   font-size:2em;
@@ -139,8 +145,8 @@ li,
   color:#ffffff;
 }
 
-.green{
-  color:#5ec936;
+.yellow{
+  color:#ffff00;
   font-weight:bold;
 }
 
