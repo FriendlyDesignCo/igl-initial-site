@@ -238,6 +238,7 @@ li,
   background-size:50%,cover;
   background-position:bottom,center;
   background-repeat:repeat-x, no-repeat;
+  background-attachment:scroll, fixed;
 }
 
 .f2{
@@ -245,6 +246,7 @@ li,
   background-size:50%,cover;
   background-position:bottom,center;
   background-repeat:repeat-x, no-repeat;
+  background-attachment:scroll, fixed;
 }
 
 .f3{
@@ -252,6 +254,7 @@ li,
   background-size:50%,cover;
   background-position:bottom,center;
   background-repeat:repeat-x, no-repeat;
+  background-attachment:scroll, fixed;
 }
 
 .logo{
@@ -337,7 +340,6 @@ li,
 .top,
 .mid{
   padding-top:100px;
-  padding-bottom:100px;
 }
 
 
